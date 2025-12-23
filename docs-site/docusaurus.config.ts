@@ -16,7 +16,6 @@ const config: Config = {
   projectName: 'UdonEmuTools',
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
   i18n: {
     defaultLocale: 'ja',
@@ -58,7 +57,7 @@ const config: Config = {
         {
           title: 'Docs',
           items: [
-            {label: 'はじめに', to: '/intro'},
+            {label: 'はじめに', to: '/'},
             {label: 'インストール', to: '/install'},
             {label: 'クイックスタート', to: '/quickstart'},
           ],
@@ -68,7 +67,7 @@ const config: Config = {
           items: [{label: 'GitHub', href: 'https://github.com/ikuko/UdonEmuTools'}],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} ikuko`,
+      copyright: `© ${new Date().getFullYear()} ikuko by Hoshino Labs.`,
     },
     prism: {
       theme: prismThemes.github,

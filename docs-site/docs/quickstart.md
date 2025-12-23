@@ -136,9 +136,3 @@ UdonSharp で書いたプログラムから UdonAssembly を取得する方法�
 実行前後でデータを受け渡す方法を学びます。
 
 **参照**：[変数の読み書き](/guides/variables)
-
-### Web から UdonAssembly を取得する
-
-実際のプロジェクトでは、UdonAssembly を外部ファイルや Web から取得します。
-
-**参照**：[実行時差し替えクイックスタート](/quickstart-runtime)

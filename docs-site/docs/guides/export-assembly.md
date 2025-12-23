@@ -24,7 +24,8 @@ title: UdonAssembly のエクスポート
 Unity の **Project ウィンドウ**で、エクスポートしたい **UdonSharpProgramAsset（`.asset` ファイル）** を選択します。
 
 :::info UdonSharpProgramAsset とは
-UdonSharp で C# スクリプトを書くと、対応する `.asset` ファイルが自動生成されます。このファイルには、コンパイルされた UdonProgram が格納されています。
+UdonSharp で C# スクリプトを書くと、対応する `.asset` ファイルが自動生成されます。  
+このファイルには、コンパイルされた UdonProgram が格納されています。
 :::
 
 ---
@@ -71,14 +72,15 @@ Tools > HoshinoLabs > UdonEmu > Copy Assembly To Clipboard With Heap
 このテキストを `.txt` または `.uasm` ファイルとして保存してください（例: `MyProgram.txt`）。
 
 :::info 「With Heap」の意味
-メニュー名に含まれる「With Heap」は、**変数の初期値やデータも含めてエクスポートする**ことを意味します。これにより、完全な状態でプログラムを実行時に復元できます。
+メニュー名に含まれる「With Heap」は、**変数の初期値やデータも含めてエクスポートする**ことを意味します。  
+これにより、完全な状態でプログラムを実行時に復元できます。
 :::
 
 ---
 
 ## トラブルシューティング
 
-エクスポート時の問題については [トラブルシューティング](/troubleshooting#エクスポート関連エラー) ページを参照してください。
+エクスポート時の問題については [トラブルシューティング](/troubleshooting#udonassembly-のエクスポート関連) ページを参照してください。
 
 ---
 
@@ -90,3 +92,9 @@ Tools > HoshinoLabs > UdonEmu > Copy Assembly To Clipboard With Heap
 1. エクスポート操作を再度実行して、最新の状態を取得
 2. テキストエディタで余計な改行や文字が入っていないか確認
 3. [デバッグ / 解析](/debug/dump) で UdonProgram の構造を確認
+
+:::danger UdonEmu がシリアライズできないフィールド
+エクスポートを行う際に値を文字列にシリアライズします。  
+一部のプリミティブ型や構造体型のみシリアライズに対応していることに注意してください。  
+シリアライズされない値は null になるため外部スクリプトから設定するか何らかの手段で自力取得する必要があります。
+:::
