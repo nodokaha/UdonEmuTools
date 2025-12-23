@@ -60,8 +60,7 @@ VN3L
 利用頂いた際は使用ワールドなどを教えて頂けると幸いです。  
 また任意ですがクレジットの掲載もして頂けると嬉しいです。
 
-* <a href="20251223055908vn3license_en.pdf" target="_blank">20251223055908vn3license_en.pdf</a>
-* <a href="20251223055908vn3license_ja.pdf" target="_blank">20251223055908vn3license_ja.pdf</a>
-* <a href="20251223055908vn3license_ko.pdf" target="_blank">20251223055908vn3license_ko.pdf</a>
-* <a href="20251223055908vn3license_zh.pdf" target="_blank">20251223055908vn3license_zh.pdf</a>
-
+* [20251223055908vn3license_en.pdf](20251223055908vn3license_en.pdf)
+* [20251223055908vn3license_ja.pdf](20251223055908vn3license_ja.pdf)
+* [20251223055908vn3license_ko.pdf](20251223055908vn3license_ko.pdf)
+* [20251223055908vn3license_zh.pdf](20251223055908vn3license_zh.pdf)
