@@ -3,6 +3,11 @@
 ![](https://img.shields.io/badge/unity-2022.3+-000.svg)
 [![Releases](https://img.shields.io/github/release/ikuko/UdonEmuTools.svg)](https://github.com/ikuko/UdonEmuTools/releases)
 
+UdonEmu は、VRChat 公式の Udon が実行する **UdonAssembly 形式のコード**を実行するための **エミュレーター** です。
+
+UdonEmu は BOOTH で販売しています。  
+**[BOOTH 商品ページ](https://hoshinolabs.booth.pm/items/7795035)**
+
 ## Features
 
 ## Documentation

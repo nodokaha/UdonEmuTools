@@ -28,6 +28,11 @@ Web サーバーから UdonAssembly を配信し、ワールド起動時やイ�
 
 ## 導入方法
 
+:::info BOOTH で販売中
+UdonEmu は **BOOTH** で販売しています。  
+👉 **[BOOTH 商品ページ](https://hoshinolabs.booth.pm/items/7795035)**
+:::
+
 :::info unitypackage + VCC
 UdonEmu は **unitypackage** で配布されています。依存関係の **Sardinject は VCC** で導入します。
 

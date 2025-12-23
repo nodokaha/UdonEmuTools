@@ -26,10 +26,12 @@ UdonEmu は [Sardinject](https://github.com/ikuko/Sardinject) に依存してい
 
 ## 2. UdonEmu の unitypackage を入手する
 
-配布サイトから `UdonEmu-<version>.unitypackage` をダウンロードしてください。
+BOOTH から `UdonEmu-<version>.unitypackage` をダウンロードしてください。
+
+**👉 [BOOTH 商品ページ](https://hoshinolabs.booth.pm/items/7795035)**
 
 - ファイル名にはバージョンが含まれるため固定ではありません（例: `UdonEmu-1.0.0.unitypackage`）
-- 配布サイトの最新版を確認してダウンロードしてください
+- BOOTH から最新版をダウンロードしてください
 
 ---
 
