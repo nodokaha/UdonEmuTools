@@ -88,4 +88,4 @@ UdonEmuTools の UdonAssembly エクスポートでは、ヒープ上の値を *
 
 ## 関連ドキュメント
 
-- [UdonAssembly のエクスポート](./export-assembly)
+- [UdonAssembly のエクスポート](/guides/export-assembly)
