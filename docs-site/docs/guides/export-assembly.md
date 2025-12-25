@@ -98,5 +98,5 @@ Tools > HoshinoLabs > UdonEmu > Copy Assembly To Clipboard With Heap
 一部のプリミティブ型や構造体型のみシリアライズに対応していることに注意してください。  
 シリアライズされない値は **`null`** になるため外部スクリプトから設定するか何らかの手段で自力取得する必要があります。
 
-対応している型の一覧: [シリアライズできる型](./serializable-types)
+対応している型の一覧: [シリアライズできる型](/guides/serializable-types)
 :::

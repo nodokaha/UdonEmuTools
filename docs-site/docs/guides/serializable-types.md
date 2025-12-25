@@ -52,9 +52,22 @@ UdonEmuTools の UdonAssembly エクスポートでは、ヒープ上の値を *
 
 - `Unity.AI.Navigation.CollectObjects`
 - `UnityEngine.AI.NavMeshCollectGeometry`
+- `UnityEngine.Bounds`
+- `UnityEngine.Color32`
+- `UnityEngine.Color`
 - `UnityEngine.CubemapFace`
+- `UnityEngine.Matrix4x4`
+- `UnityEngine.Plane`
+- `UnityEngine.Quaternion`
+- `UnityEngine.Ray`
+- `UnityEngine.Rect`
 - `UnityEngine.SpritePackingMode`
 - `UnityEngine.SpritePackingRotation`
+- `UnityEngine.Vector2Int`
+- `UnityEngine.Vector2`
+- `UnityEngine.Vector3Int`
+- `UnityEngine.Vector3`
+- `UnityEngine.Vector4`
 
 ---
 
