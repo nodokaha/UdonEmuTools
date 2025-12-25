@@ -48,6 +48,15 @@ jobs:
         with: 
             file_path: "${{ env.packagePath }}/package.json"
             prop_path: "version"
+
+      # Copy required files
+      - name: Copy Required Files
+        run: |
+          cp -f README.md ${{ env.packagePath }}/README.md
+          cp -f 20251223055908vn3license_en.pdf ${{ env.packagePath }}/20251223055908vn3license_en.pdf
+          cp -f 20251223055908vn3license_ja.pdf ${{ env.packagePath }}/20251223055908vn3license_ja.pdf
+          cp -f 20251223055908vn3license_ko.pdf ${{ env.packagePath }}/20251223055908vn3license_ko.pdf
+          cp -f 20251223055908vn3license_zh.pdf ${{ env.packagePath }}/20251223055908vn3license_zh.pdf
     
       # Configure the Environment Variables needed for releasing the Package
       - name: Set Environment Variables
