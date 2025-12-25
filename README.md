@@ -52,8 +52,6 @@ Sardinal はリリースタグを使用するので以下のようにバージ�
 https://github.com/ikuko/UdonEmuTools.git?path=Packages/com.hoshinolabs.udonemu-tools#1.0.0
 ```
 
-## Basic Usage
-
 ## Author
 
 [@ikuko](https://x.com/magi_ikuko)
